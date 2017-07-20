@@ -177,3 +177,13 @@ data-in-memory true
 }
 ```
 
+# aql(Aerospike query language) query
+```sh
+aql> set key_send true
+aql> set output json
+aql> set record_print_metadata true
+aql> INSERT INTO <namespace>.<setname> (<primary-key>, <bin1>, <bin2>) VALUES ('vijay', 'abc', 123)
+aql> select * from <namespace>.<setname> where <primary-key>='vijay'
+aql> delete from <namespace>.<setname> where <primary-key>='vijay'
+```
+
