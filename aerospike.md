@@ -186,4 +186,9 @@ aql> INSERT INTO <namespace>.<setname> (<primary-key>, <bin1>, <bin2>) VALUES ('
 aql> select * from <namespace>.<setname> where <primary-key>='vijay'
 aql> delete from <namespace>.<setname> where <primary-key>='vijay'
 ```
-
+# aql terms
+```sh
+key	      Unique identifier. Records are addressable using a hash of its key, called the digest.
+metadata	Record version information (generation) and the configured expiration, called the time-to-live (TTL).
+bins	    Bins are equivalent to fields in RDBMS.
+```
