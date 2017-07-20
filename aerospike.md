@@ -192,3 +192,7 @@ key	      Unique identifier. Records are addressable using a hash of its key, ca
 metadata	Record version information (generation) and the configured expiration, called the time-to-live (TTL).
 bins	    Bins are equivalent to fields in RDBMS.
 ```
+# aql detailed explaination 
+```sh
+http://50.18.208.174/docs/tools/aql/index_management.html
+```
